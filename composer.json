@@ -1,0 +1,20 @@
+{
+    "name": "top2new1/amilcarex",
+    "type": "project",
+    "authors": [
+        {
+            "name": "amilcarex",
+            "email": "80701261+amilcarex@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
